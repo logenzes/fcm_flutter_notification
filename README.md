@@ -1,16 +1,12 @@
 # firebase_project2
 
-A new Flutter project.
+Firebase - Flutter -notification
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+FireBase에서 보낸 메시지를 Flutter에서 받을때 알림 설정
+Foreground, Background, Terminated State에서
+각각의 state에 맞춰서 flutter_local_notifications를 통해
+Head up notificaion 작동
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+구동 테스트를 위해 postman에서 FCM API를 이용해 메시지 전송
